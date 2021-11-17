@@ -1,0 +1,107 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 13px/1.5 Source Sans Pro,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  letter-spacing: 0.1em;
+  background-color: #fefae0;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 25px;
+  font-family: Libre Baskerville,serif;
+}
+
+h1:hover {
+  color: #5aa608;
+  cursor: pointer;
+  transform: translate(0, -0.3em)
+}
+
+h2 {
+  font-size: 23px;
+  font-family: Libre Baskerville,serif;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 12.2px;
+}
+
+h8 {
+  background-color: #8dc736;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+  padding: 8px 8px 8px 8px;
+}
+
+h8:hover {
+  border-radius: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#shop, #guide, #home {
+  margin-top: 70px;
+  margin-left: 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  font-family: Libre Baskerville,serif;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
